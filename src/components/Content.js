@@ -7,12 +7,13 @@ import Page4 from './pages/Page4';
 
 class Content extends React.Component {
   render()  {
+    console.log(this.props.currentPage);
     return (
       <div className="Content">
-        <Page1></Page1>
-        <Page2></Page2>
-        <Page3></Page3>
-        <Page4></Page4>
+        <Page1 className={this.props.currentPage === 'page1' ? "show" : "hide"}></Page1>
+        <Page2 className={this.props.currentPage === 'page2' ? "show" : "hide"}></Page2>
+        <Page3 className={this.props.currentPage === 'page3' ? "show" : "hide"}></Page3>
+        <Page4 className={this.props.currentPage === 'page4' ? "show" : "hide"}></Page4>
       </div>
     )
   };

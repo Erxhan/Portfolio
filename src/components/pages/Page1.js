@@ -3,7 +3,7 @@ import React from 'react';
 class Page1 extends React.Component {
   render() {
     return (
-      <div className="page show" id="page1">
+      <div className={`page ${this.props.className}`} id="page1">
         <h1>Erxhan Selmani</h1>
         <h2>Web Application Developer</h2>
         <h3>Front End, Back End, UI & UX</h3>

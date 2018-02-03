@@ -1,15 +1,24 @@
 import React from 'react';
 import './Navbar.css';
-import Icon from './Icon';
 
 class Navbar extends React.Component {
+  
+
   render() {
     return (
       <div className="Navbar">
-        <Icon iconNumber="icon icon-1" icon="fas fa-align-right"></Icon>
-        <Icon iconNumber="icon icon-2" icon="fas fa-graduation-cap"></Icon>
-        <Icon iconNumber="icon icon-3" icon="fas fa-rocket"></Icon>
-        <Icon iconNumber="icon icon-4" icon="fas fa-search"></Icon>
+        <div className="icon icon-1" onClick={() => this.props.changePage('page1')}>
+          <i className="fas fa-align-right"></i>
+        </div>
+        <div className="icon icon-2" onClick={() => this.props.changePage('page2')}>
+          <i className="fas fa-graduation-cap"></i>
+        </div>
+        <div className="icon icon-3" onClick={() => this.props.changePage('page3')}>
+          <i className="fas fa-rocket"></i>
+        </div>
+        <div className="icon icon-4" onClick={() => this.props.changePage('page4')}>
+          <i className="fas fa-search"></i>
+        </div>
       </div>
     );
   };
