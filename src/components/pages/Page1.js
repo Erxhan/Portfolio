@@ -1,8 +1,9 @@
 import React from 'react';
+import './Page1.css';
 
 class Page1 extends React.Component {
   showText = () => {
-    
+    console.log(this);
   }
   render() {
     return (
@@ -10,7 +11,7 @@ class Page1 extends React.Component {
         <h1>Erxhan Selmani</h1>
         <h2>Web Application Developer</h2>
         <h3>Front End, Back End, UI & UX</h3>
-        <button id="points" onClick={this.showText}>Mais aussi</button>
+        <button id="more" onClick={this.showText}>Plus</button>
         <p id="texte">
           Passioné de Technologie et de Design, j'ai décidé de combiné les deux et d'en faire ma vocation.
           <br />
