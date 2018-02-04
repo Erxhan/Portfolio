@@ -10,7 +10,7 @@
   width: 50%;
   margin: 0 auto;
   margin-top: 70px;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
   border-bottom: #00ADB5 7px solid;
   line-height: 10rem;
 }
@@ -28,19 +28,17 @@
 
 #page1 #points {
   margin-top: 70px;
-  box-shadow: 0px 1px 3px black;
   color: #00ADB5;
-  font-size: 3rem;
+  font-size: 2.2rem;
   padding: 20px;
-  border-radius: 50px;
+  border-radius: 4px;
   border: 2px solid #00ADB5;
   background: none;
-  opacity: 0.6;
 }
 
 #page1 #points:hover {
   cursor: pointer;
-  opacity: 1;
+  opacity: 0.5;
 }
 
 #page1 #texte {
@@ -77,6 +75,7 @@
 
 .show {
   transform: translateX(0%);
+  transform: scale(1);
   transition: all 1s cubic-bezier(.84, .06, .26, .97);
 }
 

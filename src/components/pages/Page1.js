@@ -1,13 +1,16 @@
 import React from 'react';
 
 class Page1 extends React.Component {
+  showText = () => {
+    
+  }
   render() {
     return (
       <div className={`page ${this.props.className}`} id="page1">
         <h1>Erxhan Selmani</h1>
         <h2>Web Application Developer</h2>
         <h3>Front End, Back End, UI & UX</h3>
-        <button id="points">Mais aussi</button>
+        <button id="points" onClick={this.showText}>Mais aussi</button>
         <p id="texte">
           Passioné de Technologie et de Design, j'ai décidé de combiné les deux et d'en faire ma vocation.
           <br />
