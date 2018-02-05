@@ -1,18 +1,17 @@
 #page1 {
-  background: #222831;
-  color: #FCF9F9;
+  color: #222831;
   text-align: center;
 }
 
 #page1 h1 {
   font-size: 5rem;
-  text-shadow: 1px 1px 3px rgb(29, 29, 29);
+  /* text-shadow: 1px 1px 3px rgb(29, 29, 29); */
   width: 50%;
   margin: 0 auto;
   margin-top: 5%;
   margin-bottom: 5%;
   border-bottom: #00ADB5 7px solid;
-  line-height: 10rem;
+  line-height: 1.5;
 }
 
 #page1 h2 {
@@ -45,12 +44,13 @@
 
 #page1 #texte {
   color: #00ADB5;
+  text-align: left;
   border: 3px solid #00ADB5;
   border-radius: 4px;
   line-height: 2rem;
   padding: 30px;
   font-size: 1.2rem;
   font-weight: 200;
-  width: 70%;
-  margin: 0 auto;
+  /* width: 50%; */
+  margin: 0 15%;
 }

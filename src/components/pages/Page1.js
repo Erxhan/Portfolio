@@ -23,7 +23,7 @@ class Page1 extends React.Component {
           ? <p id="texte">
           Passioné de Technologie et de Design, j'ai décidé de combiné les deux et d'en faire ma vocation.
           <br />
-          C'est ainsi qu'aujourd'hui, j'ai mis un pied dans le monde du développemet Web et Mobile en tant que
+          C'est ainsi qu'aujourd'hui, je me retrouve dans le monde du développemet Web et Mobile en tant que
           développeur Junior.
           <br />
           Toute la stack du développement suscite pour moi un réel intérêt, que ce soit de la logique métier en back-end, en passant

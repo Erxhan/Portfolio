@@ -15,5 +15,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://erxhanselmani.github.io/Portfolio"
+  "homepage": "https://Erxhan.github.io/Portfolio"
 }
