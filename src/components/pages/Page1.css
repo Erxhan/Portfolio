@@ -9,7 +9,7 @@
   text-shadow: 1px 1px 3px rgb(29, 29, 29);
   width: 50%;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 5%;
   border-bottom: #00ADB5 7px solid;
   line-height: 10rem;
@@ -44,9 +44,8 @@
 }
 
 #page1 #texte {
-  visibility: hidden;
   color: #00ADB5;
-  border: 1px solid #00ADB5;
+  border: 3px solid #00ADB5;
   border-radius: 4px;
   line-height: 2rem;
   padding: 30px;
