@@ -46,8 +46,8 @@
 
 .iconSelected {
   cursor: pointer;
-  font-size: 4.2rem;
-  transition: all .5s cubic-bezier(0.39, 0.575, 0.565, 1);
+  font-size: 4.5rem;
+  transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .notSelected {
@@ -60,18 +60,19 @@
 @media (max-width: 800px) {
   .Navbar {
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: none;
     grid-template-columns: repeat(6, 1fr);
   }
 
   .icon {
+    display: grid;
     text-decoration: none;
+    font-size: 3rem;
     justify-items: center;
     align-items: center;
-    font-size: 3rem;
     text-align: center;
-    color: white;
-    border: 1px solid yellow;
+    color: #222831;
+    /* border: 1px solid yellow; */
   }
 
   .icon-1 {
