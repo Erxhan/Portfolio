@@ -6,11 +6,11 @@
 .icon {
   display: grid;
   text-decoration: none;
-  font-size: 3.2rem;
+  font-size: 2.8em;
   justify-items: center;
   align-items: center;
   text-align: center;
-  color: #222831;
+  color: #343434;
   /* border: 1px solid yellow; */
 }
 
@@ -39,20 +39,20 @@
 }
 
 .icon:hover .fas {
-  font-size: 4.5rem;
+  font-size: 1.4em;
   cursor: pointer;
   transition: all .2s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .iconSelected {
   cursor: pointer;
-  font-size: 4.5rem;
-  transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+  font-size: 2.8em;
+  transition: all .1s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .notSelected {
   cursor: pointer;
-  font-size: 3.5rem;
+  font-size: 2.3em;
   opacity: 0.9;
   /* transition: all .2s cubic-bezier(0.39, 0.575, 0.565, 1); */
 }
