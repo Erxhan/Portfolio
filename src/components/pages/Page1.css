@@ -1,15 +1,25 @@
 #page1 {
   text-align: center;
+  margin: 25vh auto;
 }
 
 #page1 h1 {
+  position: relative;
   font-size: 4em;
-  width: 50%;
   margin: 0 auto;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-bottom: 3vh;
+  line-height: 1.6;
+}
+
+#page1 h1::after {
+  position: absolute;
   border-bottom: #00ADB5 7px solid;
-  line-height: 1.5;
+  min-width: 500px;
+  max-width: 50vw;
+  left: 50%;
+  content: "";
+  bottom: -10px;
+  transform: translateX(-50%);
 }
 
 #page1 h2 {
@@ -25,7 +35,8 @@
 
 #page1 #more {
   display: block;
-  width: 15%;
+  min-width: 15%;
+  max-width: 150px;
   margin: 0 auto;
   color: #00ADB5;
   font-size: 2em;
@@ -37,17 +48,50 @@
 
 #page1 #more:hover {
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 #page1 #texte {
-  color: #00ADB5;
   text-align: left;
-  border: 3px solid #00ADB5;
+  border: 5px solid #00ADB5;
   border-radius: 4px;
-  line-height: 2rem;
-  padding: 30px;
-  font-size: 1.2rem;
-  font-weight: 200;
+  line-height: 1.5em;
+  padding: 1.5em;
+  font-size: 1.2em;
   margin: 0 15%;
+}
+
+@media (max-width: 700px) {
+  #page1 {
+    margin: 15vh auto;
+  }
+
+  #page1 h1 {
+    font-size: 3em;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+    line-height: 1.4;
+  }
+
+  #page1 h1::after {
+    min-width: 350px;
+  }
+
+  #page1 h2 {
+    font-size: 2em;
+    margin: 5vh 5vw;
+  }
+
+  #page1 h3 {
+    font-size: 1.3em;
+    font-weight: 200;
+    margin: 3vh 4vw;
+  }
+
+  #page1 #more {
+    min-width: 100px;
+    margin: 0 auto;
+    font-size: 1.3em;
+    padding: 1.5em;
+  }
 }

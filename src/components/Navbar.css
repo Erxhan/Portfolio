@@ -44,15 +44,14 @@
   transition: all .2s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
-.iconSelected {
-  cursor: pointer;
-  font-size: 2.8em;
+.iconSelected .fas{
+  font-size: 1.4em;
   transition: all .1s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
-.notSelected {
+.notSelected .fas{
   cursor: pointer;
-  font-size: 2.3em;
+  font-size: 1.2em;
   opacity: 0.9;
   /* transition: all .2s cubic-bezier(0.39, 0.575, 0.565, 1); */
 }
@@ -75,7 +74,7 @@
     /* border: 1px solid yellow; */
   }
 
-  .icon-1 {
+  /* .icon-1 {
     grid-column: 2 / 3;
   }
   .icon-2 {
@@ -86,5 +85,5 @@
   }
   .icon-4 {
     grid-column: 5 / 6;
-  }
+  } */
 }
