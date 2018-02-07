@@ -51,8 +51,8 @@
 
 .notSelected .fas{
   cursor: pointer;
-  font-size: 1.2em;
-  opacity: 0.9;
+  font-size: 1em;
+  opacity: 0.6;
   /* transition: all .2s cubic-bezier(0.39, 0.575, 0.565, 1); */
 }
 
