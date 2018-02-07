@@ -7,11 +7,37 @@
 }
 
 .show {
-  transform: translateX(0%);
-  transition: all .3s cubic-bezier(.84, .06, .26, .97);
+  animation: .5s ease-in-out slideIn;
 }
 
 .hide {
-  transform: translateX(110vw);
-  transition: all .5s cubic-bezier(.84, .06, .26, .97);
+  animation: .4s ease-in-out forwards slideOut;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  50% {
+    opacity: 1;    
+    transform: translateX(-4%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-4%);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(110vw);
+  }
 }
