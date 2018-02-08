@@ -1,0 +1,12 @@
+#page2 {
+  text-align: center;
+  margin: 25vh auto;
+}
+
+#page2 h1 {
+  position: relative;
+  font-size: 4em;
+  margin: 0 auto;
+  margin-bottom: 3vh;
+  line-height: 1.6;
+}
