@@ -1,9 +1,17 @@
+#page1,
+#page2,
+#page3,
+#page4 {
+  height: 100%;
+  width: 100%;
+}
+
 .show {
   animation: .5s ease-in-out slideIn;
 }
 
 .hide {
-  animation: .4s ease-in-out forwards slideOut;
+  display: none;
 }
 
 @keyframes slideIn {
@@ -12,7 +20,7 @@
     transform: translateX(100%);
   }
   50% {
-    opacity: 1;    
+    opacity: 1; 
     transform: translateX(-4%);
   }
   to {
@@ -20,16 +28,3 @@
   }
 }
 
-@keyframes slideOut {
-  from {
-    opacity: 1;
-    transform: translateX(0%);
-  }
-  50% {
-    transform: translateX(-4%);
-  }
-  to {
-    opacity: 0;
-    transform: translateX(110vw);
-  }
-}
