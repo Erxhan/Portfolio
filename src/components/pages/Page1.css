@@ -95,7 +95,7 @@
   opacity: 0.7;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   #page1 {
     margin: 15vh auto;
   }
@@ -126,5 +126,16 @@
     margin: 0 auto;
     font-size: 1.3em;
     padding: 1.5em;
+  }
+
+  #page1 #texte {
+    top: 20vh;
+    left: 20vw;
+    max-width: 65vw;
+    text-align: left;
+    border-radius: 8px;
+    line-height: 1.3em;
+    font-size: 1.1em;
+    animation: .4s ease-in-out popUpModal;
   }
 }

@@ -16,6 +16,22 @@
   }
 }
 
+@media (max-width: 800px) {
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(-10%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
+}
+
 .page {
   text-align: center;
   margin: 25vh auto;
