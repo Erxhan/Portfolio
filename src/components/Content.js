@@ -36,14 +36,6 @@ class Content extends React.Component {
       default:
         break;
     }
-    // return (
-    //   <div className="Content">
-    //     <Page1 className={this.props.currentPage === 'page1' ? "show" : "hide"}></Page1>
-    //     <Page2 className={this.props.currentPage === 'page2' ? "show" : "hide"}></Page2>
-    //     <Page3 className={this.props.currentPage === 'page3' ? "show" : "hide"}></Page3>
-    //     <Page4 className={this.props.currentPage === 'page4' ? "show" : "hide"}></Page4>
-    //   </div>
-    // )
   };
 };
 

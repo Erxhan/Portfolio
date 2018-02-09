@@ -25,5 +25,7 @@
 
   .Navbar {
     grid-row: 2 / 3;
+    grid-template-rows: none;
+    grid-template-columns: repeat(6, 1fr);
   }
 }

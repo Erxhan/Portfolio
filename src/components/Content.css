@@ -1,17 +1,5 @@
-#page1,
-#page2,
-#page3,
-#page4 {
-  height: 100%;
-  width: 100%;
-}
-
 .show {
   animation: .5s ease-in-out slideIn;
-}
-
-.hide {
-  display: none;
 }
 
 @keyframes slideIn {
@@ -28,3 +16,9 @@
   }
 }
 
+.page {
+  text-align: center;
+  margin: 25vh auto;
+  max-height: 100%;
+  max-width: 100%;
+}
