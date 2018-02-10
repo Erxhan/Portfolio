@@ -50,7 +50,7 @@
   position: absolute;
   box-shadow: 0px 0px 5px 1px #00ADB5;
   background: #FCF9F9;
-  z-index: 2;
+  z-index: 3;
   top: 25vh;
   left: 25vw;
   max-width: 65vw;
@@ -59,6 +59,18 @@
   line-height: 1.5em;
   font-size: 1.2em;
   animation: .4s ease-in-out popUpModal;
+}
+
+.calque {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  animation: .5s ease-in-out popUpModal;
 }
 
 @keyframes popUpModal {
