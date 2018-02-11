@@ -16,7 +16,6 @@
     height: 100vh;
     grid-template-columns: 1fr;
     grid-template-rows: 80vh 20vh;
-    /* align-items: center; */
   }
 
   .Content {
