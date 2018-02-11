@@ -27,6 +27,6 @@
     grid-row: 2 / 3;
     grid-template-rows: none;
     grid-template-columns: repeat(4, 1fr);
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
   }
 }
