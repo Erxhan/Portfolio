@@ -8,9 +8,9 @@ import Linkedin from '../../img/linkedin.svg';
 class Page4 extends React.Component {
   render() {
     let logoStyle = {
-      width: '64px',
-      height: '64px',
-      marginBottom: '1em'
+      width: '70px',
+      height: '70px',
+      marginBottom: '1em',
     };
     
     return (
