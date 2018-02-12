@@ -2,6 +2,7 @@
   display: grid;
   font-size: 2.8em;
   justify-items: center;
+  align-items: center;
 }
 
 .icon-1 {
