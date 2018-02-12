@@ -7,30 +7,25 @@ import Linkedin from '../../img/linkedin.svg';
 
 class Page4 extends React.Component {
   render() {
-    let logoStyle = {
-      width: '70px',
-      height: '70px',
-      marginBottom: '1em',
-    };
     
     return (
       <div className={`page ${this.props.className}`} id="page4">
-        <div className="card card-1">  
-          <img style={logoStyle} src={Email}></img>
-          <a className="linkStyle" href="mailto:erxhanselmani@icloud.com">Email Me</a> 
-        </div>
-        <div className="card card-2">
-          <img style={logoStyle} src={Github}></img>
-          <a className="linkStyle" target="_blank" href="https://github.com/Erxhan">Github</a>
-        </div>
-        <div className="card card-3">
-          <img style={logoStyle} src={Iphone}></img>
-          <a className="linkStyle" href="tel:+32484621746">Call Me</a>
-        </div>
-        <div className="card card-4">
-          <img style={logoStyle} src={Linkedin}></img>
-          <a className="linkStyle" target="_blank" href="https://www.linkedin.com/in/erdzan-selmani/">Visit Me</a>
-        </div>
+        <a className="card card-1" href="mailto:erxhanselmani@icloud.com">  
+          <img className="logoStyle" src={Email}></img>
+          <span>Email Me</span> 
+        </a>
+        <a className="card card-2" target="_blank" href="https://github.com/Erxhan">
+          <img className="logoStyle" src={Github}></img>
+          <span>Github</span>
+        </a>
+        <a className="card card-3" href="tel:+32484621746">
+          <img className="logoStyle" src={Iphone}></img>
+          <span>Call Me</span>
+        </a>
+        <a className="card card-4" target="_blank" href="https://www.linkedin.com/in/erdzan-selmani/">
+          <img className="logoStyle" src={Linkedin}></img>
+          <span>Visit Me</span>
+        </a>
       </div>
     );
   };
