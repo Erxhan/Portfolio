@@ -2,6 +2,7 @@
   position: relative;
   font-size: 4em;
   margin: 0 auto;
+  padding-top: 25vh;
   margin-bottom: 3vh;
   line-height: 1.6;
 }
@@ -98,6 +99,8 @@
   text-align: center;
   background: var(--main-color);
   padding: 15px 0;
+  opacity: 0.6;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .exitModal:hover {
