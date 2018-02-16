@@ -34,40 +34,32 @@
   max-width: 150px;
   font-size: 1.8em;
   padding: 1em;
-  border-radius: 0.4em;
-  border: 2px solid;
+  border-radius: 0.1em;
+  border: 1px solid;
   background: none;
 }
 
 #page1 #more:hover {
   cursor: pointer;
-  opacity: 0.5;
+  background: var(--main-color);
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  /* opacity: 0.5; */
 }
 
 #page1 #texte {
   position: absolute;
   box-shadow: 0px 0px 3px 0px rgba(43, 65, 77, 0.4);
-  background: #FCF9F9;
+  background: #FFF;
   z-index: 3;
   top: 25%;
   left: 25%;
   max-width: 65vw;
   text-align: left;
-  border-radius: 8px;
+  border-radius: 3px;
   line-height: 1.5em;
   font-size: 1.2em;
   animation: .4s ease-in-out popUpModal;
-}
-
-.calque {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--main-color);
-  opacity: 0.1;
-  width: 100vw;
-  height: 100vh;
-  z-index: 2;
 }
 
 @keyframes popUpModal {
@@ -90,19 +82,19 @@
 
 .exitModal {
   display: block;
-  color: #FCF9F9;
+  background: #FFF;
+  color: var(--main-color);
   width: 100%;
   border-radius: 0 0 8px 8px;
   text-align: center;
-  background: var(--main-color);
-  padding: 15px 0;
-  opacity: 0.6;
-  transition: opacity 0.2s ease-in-out;
+  padding: 1em 0;
 }
 
 .exitModal:hover {
   cursor: pointer;
-  opacity: 0.7;
+  color: #FFF;
+  background: var(--main-color);  
+  transition: all 0.2s ease-in-out;  
 }
 
 @media (max-width: 800px) {
