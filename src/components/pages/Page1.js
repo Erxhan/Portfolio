@@ -24,7 +24,7 @@ class Page1 extends React.Component {
             <div className="calque" />
             <div id="texte">
               <div className="texteInside">
-                Passioné de Technologie et de Design, j'ai décidé de combiné les
+                Passioné de Technologie et de Design, j'ai décidé de combiner les
                 deux et d'en faire ma vocation.
                 <br />
                 C'est ainsi qu'aujourd'hui, je me retrouve dans le monde du
