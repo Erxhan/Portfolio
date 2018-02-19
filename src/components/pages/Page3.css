@@ -1,5 +1,5 @@
 .container {
-  padding: 5% 5em;
+  padding: 7% 5em;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -11,7 +11,7 @@
 
 figure {
   border-radius: 1em;
-  padding: 1em;
+  padding: 0.9em;
   opacity: 0.6;
 }
 
@@ -24,8 +24,8 @@ figure:hover {
 }
 
 img {
-  width: 70%;
-  height: 70px;
+  width: 60px;
+  height: 60px;
 }
 
 @media (max-height: 800px) and (max-width: 1300px) {
