@@ -55,14 +55,14 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    height: inherit;
     width: 90%;
+    height: 70%;
     margin: 0 auto;
   }
 
   .card {
-    padding: 1em 0;
-    margin: 3%;
+    padding: 0.7em 0;
+    margin: 2% 0;
   }
 
   .card-1 {
