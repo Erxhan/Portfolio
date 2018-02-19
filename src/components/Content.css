@@ -23,13 +23,6 @@
 }
 
 @media (max-width: 800px) {
-  .page {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: stretch;
-  }
-
   @keyframes slideIn {
     from {
       opacity: 0;

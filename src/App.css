@@ -5,7 +5,7 @@
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-columns: 8vw minmax(min-content,92vw);
+  grid-template-columns: 8vw minmax(min-content, 92vw);
 }
 
 .Navbar {
